@@ -174,7 +174,7 @@ img {
 button:focus {
     /*animation*/
     -webkit-animation: extend 2s ease-in-out;
-    -ms-animation: extend 5s ease-in-out;
+    -ms-animation: extend 2s ease-in-out;
     animation: extend 2s ease-in-out;
     -webkit-animation-fill-mode: forwards;
     /* Chrome, Safari, Opera */
@@ -183,9 +183,9 @@ button:focus {
 
 button:focus>span {
     /*animation*/
-    -webkit-animation: disappear 1s ease-in-out;
-    -ms-animation: disappear 1s ease-in-out;
-    animation: disappear 1s ease-in-out;
+    -webkit-animation: disappear 2s ease-in-out;
+    -ms-animation: disappear 2s ease-in-out;
+    animation: disappear 2s ease-in-out;
     -webkit-animation-fill-mode: forwards;
     /* Chrome, Safari, Opera */
     animation-fill-mode: forwards
@@ -193,10 +193,11 @@ button:focus>span {
 
 button:focus>img {
     /*animation*/
-    -webkit-animation: appear 1s ease-in-out;
-    -ms-animation: appear 1s ease-in-out;
-    animation: appear 1s ease-in-out;
+    -webkit-animation: appear 3s ease-in-out;
+    -ms-animation: appear 3s ease-in-out;
+    animation: appear 3s ease-in-out;
     -webkit-animation-fill-mode: forwards;
     /* Chrome, Safari, Opera */
     animation-fill-mode: forwards
 }
+
